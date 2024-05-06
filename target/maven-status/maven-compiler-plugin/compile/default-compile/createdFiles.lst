@@ -1,2 +1,5 @@
 com\empresa\Dto\DtoInventary.class
+com\empresa\registro\RegistroUsuarioServlet.class
+com\empresa\login\LoginServlet.class
 com\empresa\Servlet\InventaryServlet.class
+com\empresa\Dto\Usuario.class

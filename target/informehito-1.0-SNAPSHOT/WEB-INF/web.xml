@@ -4,9 +4,25 @@
         <servlet-name>InventaryServlet</servlet-name>
         <servlet-class>com.empresa.Servlet.InventaryServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>RegistroUsuarioServlet</servlet-name>
+        <servlet-class>com.empresa.registro.RegistroUsuarioServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.empresa.login.LoginServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>InventaryServlet</servlet-name>
         <url-pattern>/InventaryServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RegistroUsuarioServlet</servlet-name>
+        <url-pattern>/RegistroUsuarioServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

@@ -64,8 +64,8 @@ public class InventaryServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         String url = "jdbc:mysql://localhost:3306/inventario_db";
-    String user = "root";
-    String password = "";
+        String user = "root";
+        String password = "";
     
     try {
         Class.forName("com.mysql.cj.jdbc.Driver");
